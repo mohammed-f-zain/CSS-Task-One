@@ -1,0 +1,21 @@
+.original .small .smaller{
+    display: inline-block;
+}
+.original{
+    width: 400px;
+}
+.small{
+    width: 25%;
+    height: 25%;
+}
+.smaller{
+    height: 50px;
+}
+.imgtable{
+    width: 200px;
+    height: 150px;
+}
+.places{
+    text-align: center;
+    margin: 25px auto;
+}

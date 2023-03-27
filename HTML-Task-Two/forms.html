@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Forms.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+      
+        <label for="pw">Password:</label>
+        <input type="password" id="pw" name="pw"><br>
+      
+        <input type="submit" value="Login">
+      </form>
+      <hr>
+      <form>
+        <fieldset>
+          <legend>Personal Details:</legend>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName"><br>
+      
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName"><br>
+      
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email"><br>
+      
+          <label>Gender:</label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female"><br>
+        </fieldset>
+        <fieldset>
+          <legend>Magazines:</legend>
+          <label for="magazine1">Magazine 1</label>
+          <input type="checkbox" id="magazine1" name="magazines[]" value="magazine1"><br>
+          <label for="magazine2">Magazine 2</label>
+          <input type="checkbox" id="magazine2" name="magazines[]" value="magazine2"><br>
+          <label for="magazine3">Magazine 2</label>
+          <input type="checkbox" id="magazine3" name="magazines[]" value="magazine2"><br>
+          <label for="magazine4">Magazine 2</label>
+          <input type="checkbox" id="magazine4" name="magazines[]" value="magazine2">
+        </fieldset>
+          
+          <br>
+      <fieldset>
+          <legend for="subscription">Subscription Period:</legend>
+          <select id="subscription" name="subscription">
+            <option value="6">6 months</option>
+            <option value="12">12 months</option>
+            <option value="18">18 months</option>
+            <option value="24">24 months</option>
+          </select>
+        </fieldset>
+          <br>
+      
+          <input type="submit" value="Subscribe">
+        
+      </form>
+      <hr>
+      <h2>New Employee Information</h2>
+      <form>
+        <label for="first-name">First Name*</label>
+        <input type="text" id="first-name" name="first-name" required>
+        <br>
+        <label for="last-name">Last Name*</label>
+        <input type="text" id="last-name" name="last-name" required>
+        <br>
+        <label for="email">Email*</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="phone">Phone*</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br>
+        <label for="address">Address*</label>
+        <input type="text" id="address" name="address" required>
+        <br>
+        <label for="city">City*</label>
+        <input type="text" id="city" name="city" required>
+        <br>
+        <label for="state">State*</label>
+        <select id="state" name="state" required>
+          <option value="">--Select a state--</option>
+          <option value="Amman">Amman</option>
+          <option value="Aqaba">Aqaba</option>
+          <option value="Irbid">Irbid</option>
+          <option value="Jarash">Jarash</option>
+          <!-- and so on for all states in Jordan -->
+        </select>
+        <br>
+        <label for="zip-code">Zip Code*</label>
+        <input type="text" id="zip-code" name="zip-code" required>
+        <br>
+        <label for="start-date">Start Date*</label>
+        <input type="date" id="start-date" name="start-date" required>
+        <br>
+
+        <label for="position">Position*</label>
+        <input type="text" id="position" name="position" required>
+        <br>
+
+        <label for="department">Department*</label>
+        <input type="text" id="department" name="department" required>
+        <br>
+
+        <label for="supervisor">Supervisor*</label>
+        <input type="text" id="supervisor" name="supervisor" required>
+        <br>
+
+        <label for="salary">Salary*</label>
+        <input type="number" id="salary" name="salary" required>
+        <br>
+
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo">
+        <br>
+
+        <label for="resume">Resume*</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required>
+        <br>
+<fieldset>
+        <legend for="benefits">Benefits</legend>
+        <br>
+        <input type="checkbox" id="health-insurance" name="benefits" value="Health Insurance">
+        <label for="health-insurance">Health Insurance</label>
+        <br>
+
+        <input type="checkbox" id="401k-plan" name="benefits[]" value="401(k) Plan">
+        <label for="401k-plan">401(k) Plan</label>
+        <br>
+
+        <input type="checkbox" id="paid-vacation" name="benefits" value="Paid Vacation">
+        <label for="paid-vacation">Paid Vacation</label>
+        <br>
+
+        <input type="checkbox" id="paid-sick-leave" name="benefits" value="Paid Sick Leave">
+        <label for="paid-sick-leave">Paid Sick Leave</label>
+      </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+      
+      <br>
+      <hr>
+</body>
+</html>

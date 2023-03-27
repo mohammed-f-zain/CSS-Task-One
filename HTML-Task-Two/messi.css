@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(49, 49, 60);
+}
+
+.header{
+    display: flex;
+}
+.header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 25px;
+    
+    
+}
+.name{
+    color: white;
+    margin: 25px;
+    font-weight: bolder;
+}
+.des{
+    color: white;
+    margin: 25px;
+}
+.bio{
+    color: white;
+    margin: 25px;
+}

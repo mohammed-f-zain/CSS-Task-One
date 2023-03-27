@@ -1,0 +1,163 @@
+*{
+    background-color: #dddd;
+}
+.color{
+    color: #5c98b5;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.blue{
+    font-size: 30px;
+    color: blue;
+}
+.pink{
+    color: pink;
+    font-size: 10px;
+}
+.fav{
+    font-size: 2em;
+    color: gray;
+}
+.yellow{
+    font-size: 3em;
+    color: yellow;
+}
+.style{
+    color: red;
+}
+.arial{
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    text-align: center;
+    background-color: forestgreen;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+.shadow{
+    color: pink;
+    text-shadow: black 1px 1px;
+}
+.del{
+    text-align: right;
+    color: orange;
+}
+.under{
+    color: yellow;
+    border-bottom: 1px solid red;
+}
+.external{
+    text-align: center;
+    color: white;
+    background-color: green;
+}
+.parent{
+    border-left: 1px solid;
+    border-right: 1px solid;
+    margin: 5px;
+    padding: 5px;
+}
+.class{
+    color: aqua;
+}
+#id{
+    color: green;
+    background-color: yellowgreen;
+}
+.parent1{
+    width: 300px;
+    height: 150px;
+    background-color: #f576cfdd;
+    margin: 25px auto;
+    padding: 25px;
+}
+.odd{
+    text-align: center;
+    color: blue;
+}
+.even{
+    text-align: center;
+    color: red;
+}
+.oddnum{
+    background-color: pink;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bolder{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#two{
+    color: blue;
+    font-size: 36px;
+    margin: 10px;
+}
+#evennum{
+    margin: 10px;
+    background-color: lightseagreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+.img1{
+    height: 150px;
+    width: 100px;
+}
+.img2{
+    height: 250px;
+    width: 300px;
+}
+.img{
+    background-color: aqua;
+    margin: 25px auto;
+    width: 650px;
+    padding: 10px;
+}
+.one{
+    background-color: yellow;
+    padding: 25px;
+    margin: 3px;
+    border: 2px solid green;
+}
+.two{
+    background-color: #5c98b5;
+    margin: 3px;
+    border: 2px solid blue;
+}
+.three{
+    background-color: wheat;
+    padding: 15px;
+    border: 2px solid orange;
+    width: 100px;
+    margin-left: 500px;
+    text-align: center;
+}
+.card{
+    width: 500px;
+    margin: 25px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+}
+.card1{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.card2{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.card3{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
